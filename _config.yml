@@ -1,0 +1,31 @@
+url: https://rakshazi.me
+verification:
+  yandex: 674fa753e7bdf300
+  google: Y8tF7rwYIgFdDUFv_hWp6kt3gRRKEeCDMUeqaW2VVA0
+meta:
+  "index.html":
+    canonical: /
+    description: Backend Developer, DevOps
+    icon: profile/favicon-96x96.jpg
+    image: profile/logo.jpg
+    style: profile.css
+    title: Nikita Chernyi
+    twitter: rakshazi
+    type: website
+  "stream/index.html":
+    type: website
+    title: Этке из джунглей
+    twitter: rakshazi
+    image: stream/logo.jpg
+    icon: stream/icon.jpg
+    style: stream.css
+    canonical: /stream
+    description: Ресто друид против всех
+
+compress_html:
+  clippings: all
+  comments: all
+  startings: all
+  endings: all
+  blanklines: false
+  profile: false
