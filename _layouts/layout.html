@@ -39,9 +39,11 @@ layout: compress
         <!-- END SEO -->
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
         <script async src="https://cdn.ampproject.org/v0.js"></script>
+        <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+        <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
         <style amp-boilerplate>{% include css/vendor/boilerplate.css %}</style>
         <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-        <style amp-custom>{% include css/vendor/milligram.css %}{% include css/{{ meta.style }} %}</style>
+        <style amp-custom>{% include css/vendor/milligram.css %}{% include css/global.css %}{% include css/{{ meta.style }} %}</style>
     </head>
     <body>{{ content }}</body>
 </html>

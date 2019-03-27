@@ -16,11 +16,23 @@ meta:
     type: website
     title: Этке из джунглей
     twitter: rakshazi
-    image: stream/logo.jpg
-    icon: stream/icon.jpg
+    image: stream/logo.png
+    icon: stream/logo.png
     style: stream.css
     canonical: /stream
     description: Ресто друид против всех
+
+stream:
+  twitch: etke
+  discord: v9mNxAS
+  youtube: UCN8B-kGep9ubA4SXR_NiYzQ
+  placeholder: /assets/stream/placeholder.png
+  character:
+    name: Этке
+    suffix: из джунглей
+    guild:
+      name: Ясный Лес
+      url: https://forestguild.club
 
 compress_html:
   clippings: all
