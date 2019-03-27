@@ -15,8 +15,21 @@ layout: layout
     </div>
     <div class="row row-center">
         <div class="column text-center">
-            <h1 class="text-white">ссылки</h1>
-            <amp-img class="logo-big" alt="Этке из джунглей" src="/assets/stream/logo.png" width="360" height="360"></amp-img>
+            <amp-iframe class="button-wow" width="620" height="378" sandbox="allow-scripts allow-same-origin" allowfullscreen scrolling="no" layout="responsive" frameborder="0" src="https://player.twitch.tv/?channel={{ site.stream.twitch }}">
+                <amp-img layout="fill" src="{{ site.stream.placeholder }}" placeholder></amp-img>
+            </amp-iframe>
+        </div>
+        <div class="column text-center">
+            <amp-img src="/assets/stream/char.png" width="356" height="571"></amp-img>
+        </div>
+        <div class="column text-center">
+            <amp-youtube id="youtubeLive" class="button-wow" data-live-channelid="{{ site.stream.youtube }}" width="620" height="378" layout="responsive">
+                <amp-img src="{{ site.stream.placeholder }}" placeholder layout="fill" /></amp-img>
+            </amp-youtube>
+        </div>
+    </div>
+    <div class="row row-center">
+        <div class="column text-center">
             <a href="https://raider.io/characters/eu/galakrond/{{ char.name }}" class="button button-wow" target="_blank" title="Raider.IO">
                 <amp-img alt="Raider.IO" width="50" height="50" layout="fixed" src="/assets/stream/raiderio.png"></amp-img>
             </a>
@@ -29,19 +42,6 @@ layout: layout
             <a href="{{ char.guild.url }}" class="button button-wow" target="_blank" title="{{ char.guild.name }}">
                 <amp-img alt="{{ char.guild.name }}" width="50" height="50" layout="fixed" src="/assets/stream/guild.png"></amp-img>
             </a>
-        </div>
-        <div class="column text-center">
-            <amp-img src="/assets/stream/char.png" width="356" height="571"></amp-img>
-        </div>
-        <div class="column text-center">
-            <h1 class="text-white">стримы</h1>
-            <amp-iframe width="620" height="378" sandbox="allow-scripts allow-same-origin" allowfullscreen scrolling="no" layout="responsive" frameborder="0" src="https://player.twitch.tv/?channel={{ site.stream.twitch }}">
-                <amp-img layout="fill" src="{{ site.stream.placeholder }}" placeholder></amp-img>
-            </amp-iframe>
-            <p></p>
-            <amp-youtube id="youtubeLive" data-live-channelid="{{ site.stream.youtube }}" width="620" height="378" layout="responsive">
-                <amp-img src="{{ site.stream.placeholder }}" placeholder layout="fill" /></amp-img>
-            </amp-youtube>
         </div>
     </div>
 </div>
