@@ -9,7 +9,6 @@ layout: compress
         <title>{{ meta.title }}</title>
         <!-- meta -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,minimum-scale=1">
         <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
         <meta name="description" content="{{ meta.description }}">
         <meta name="image" content="{{ site.url }}/assets/{{ meta.image }}">
@@ -38,12 +37,13 @@ layout: compress
         <link rel="icon" type="image/jpeg" href="{{ site.url }}/assets/{{ meta.icon }}">
         <!-- END SEO -->
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <script async src="https://cdn.ampproject.org/v0.js"></script>
         <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
         <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
         <style amp-boilerplate>{% include css/vendor/boilerplate.css %}</style>
         <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-        <style amp-custom>{% include css/vendor/milligram.css %}{% include css/global.css %}{% include css/{{ meta.style }} %}</style>
+            <style amp-custom>{% include css/vendor/milligram.css %}{% include css/global.css %}{% include css/{{ meta.style }} %}</style>
     </head>
     <body>{{ content }}</body>
 </html>
