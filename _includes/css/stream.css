@@ -1,0 +1,36 @@
+html, body {
+    background: #191819;
+    height: 100%;
+}
+.container,.row {
+    height: 100%;
+}
+.text-gold {
+    color: #f8b700
+}
+
+.text-orange {
+    color: #ff7c0a
+}
+
+.text-50 {
+    font-size: 50%
+}
+
+.logo-big {
+    display:none;
+}
+
+.button-wow {
+    border: 1px solid #c77e19;
+    background: rgba(0, 0, 0, .4);
+    color: #f7b10a;
+    -webkit-transition: background .2s, color .2s;
+    transition: background .2s, color .2s;
+}
+
+@media (min-width: 80.0rem) {
+    .logo-big {
+        display: block;
+    }
+}

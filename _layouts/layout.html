@@ -1,0 +1,49 @@
+---
+layout: compress
+---
+<!doctype html>
+<html ⚡ lang="en" prefix="og: http://ogp.me/ns#">
+    <head>
+        <!-- SEO -->
+        {% assign meta = site.meta[page.path] %}
+        <title>{{ meta.title }}</title>
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,minimum-scale=1">
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+        <meta name="description" content="{{ meta.description }}">
+        <meta name="image" content="{{ site.url }}/assets/{{ meta.image }}">
+        <!-- schema.org -->
+        <meta itemprop="description" content="{{ meta.description }}">
+        <meta itemprop="image" content="{{ site.url }}/assets/{{ meta.image }}">
+        <meta itemprop="name" content="{{ meta.title }}">
+        <!-- twitter card -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:creator" content="{{ meta.twitter }}">
+        <meta name="twitter:description" content="{{ meta.description }}">
+        <meta name="twitter:image:src" content="{{ site.url }}/assets/{{ meta.image }}">
+        <meta name="twitter:title" content="{{ meta.title }}">
+        <!-- ogp.me -->
+        <meta name="og:description" content="{{ meta.description }}">
+        <meta name="og:image" content="{{ site.url }}/assets/{{ meta.image }}">
+        <meta name="og:site_name" content="{{ meta.title }}">
+        <meta name="og:title" content="{{ meta.title }}">
+        <meta name="og:type" content="{{ meta.type }}">
+        <meta name="og:url" content="{{ site.url }}{{ meta.canonical }}">
+        <!-- verification -->
+        <meta name="yandex-verification" content="{{ site.verification.yandex }}" />
+        <meta name="google-site-verification" content="{{ site.verification.google }}" />
+        <!-- links -->
+        <link rel="canonical" href="{{ site.url }}{{ meta.canonical }}">
+        <link rel="icon" type="image/jpeg" href="{{ site.url }}/assets/{{ meta.icon }}">
+        <!-- END SEO -->
+        <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
+        <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+        <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+        <style amp-boilerplate>{% include css/vendor/boilerplate.css %}</style>
+        <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+        <style amp-custom>{% include css/vendor/milligram.css %}{% include css/global.css %}{% include css/{{ meta.style }} %}</style>
+    </head>
+    <body>{{ content }}</body>
+</html>
