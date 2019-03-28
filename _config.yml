@@ -33,12 +33,19 @@ meta:
   "stream/hitrayapopa.html":
     type: website
     title: лесная фея Хитраяпопа
-    twitter: 
     image: stream/guild.png
     icon: stream/guild.png
     style: stream.css
     canonical: /stream/hitrayapopa
     description: Воинственная варлок(-ша). Даешь власть лисичкам!
+  "stream/akulenokwow.html":
+    type: website
+    title: WTS'ЕРША Минаскира
+    image: stream/guild.png
+    icon: stream/guild.png
+    style: stream.css
+    canonical: /stream/akulenokwow
+    description: БВОНСАМДИ, ГДЕ МОЯ СИЛА?
 
 
 stream:
@@ -70,6 +77,22 @@ stream:
       class: warlock
       image: /assets/stream/char.hitraya.png
       description: Рыжые морды - топ!
+      guild:
+        name: Ясный Лес
+        url: https://forestguild.club
+
+  - twitch: akulenokwow
+    discord: v9mNxAS
+    youtube: UC10NcxfOO-w7-_FtNkqV7HQ
+    donationalerts: VizardT3
+    placeholder: /assets/stream/placeholder.png
+    description: БВОНСАМДИ ГДЕ МОЯ СИЛА?
+    character:
+      prefix: WTS'ЕРША
+      name: Минаскира
+      class: dh
+      image: /assets/stream/char.minaskira.png
+      description: Всегда чувствую запах охотника на демонов.
       guild:
         name: Ясный Лес
         url: https://forestguild.club
