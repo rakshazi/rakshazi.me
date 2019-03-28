@@ -23,6 +23,8 @@ layout: layout
         </div>
         <div class="column text-center">
             <amp-img src="{{ char.image }}" width="356" height="571"></amp-img>
+                <p class="text-orange">{{ stream.description }}</p>
+                <p class="text-white">{{ char.description }}</p>
         </div>
         <div class="column text-center">
             <amp-youtube id="youtubeLive" class="button-wow" data-live-channelid="{{ stream.youtube }}" width="620" height="378" layout="responsive">
