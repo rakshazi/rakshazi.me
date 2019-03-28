@@ -26,6 +26,7 @@ stream:
   twitch: etke
   discord: v9mNxAS
   youtube: UCN8B-kGep9ubA4SXR_NiYzQ
+  donationalerts: etke #https://www.donationalerts.com/r/etke
   placeholder: /assets/stream/placeholder.png
   character:
     name: Этке
