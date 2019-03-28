@@ -1,0 +1,59 @@
+---
+layout: layout
+---
+{% assign stream = site.stream | where: "twitch",page.streamer %}
+{% assign stream = stream[0] %}
+{% assign char = stream.character %}
+<div class="container">
+    <div class="row row-center">
+        <div class="column text-center">
+            <h1>
+                <span class="text-50">{{ char.prefix }}</span>
+                <span class="text-orange">{{ char.name }}</span>
+                <span class="text-50">{{ char.suffix }}</span><br />
+                <a href="{{ char.guild.url }}" class="text-gold">&laquo;{{ char.guild.name }}&raquo;</a><br />
+            </h1>
+        </div>
+    </div>
+    <div class="row row-center">
+        <div class="column text-center">
+            <amp-iframe class="button-wow" width="620" height="378" sandbox="allow-scripts allow-same-origin" allowfullscreen scrolling="no" layout="responsive" frameborder="0" src="https://player.twitch.tv/?channel={{ stream.twitch }}">
+                <amp-img layout="fill" src="{{ stream.placeholder }}" placeholder></amp-img>
+            </amp-iframe>
+        </div>
+        <div class="column text-center">
+            <amp-img src="{{ char.image }}" width="356" height="571"></amp-img>
+        </div>
+        <div class="column text-center">
+            <amp-youtube id="youtubeLive" class="button-wow" data-live-channelid="{{ stream.youtube }}" width="620" height="378" layout="responsive">
+                <amp-img src="{{ stream.placeholder }}" placeholder layout="fill" /></amp-img>
+            </amp-youtube>
+        </div>
+    </div>
+    <div class="row row-center">
+        <div class="column text-center">
+            <a href="https://raider.io/characters/eu/galakrond/{{ char.name }}" class="button button-wow" target="_blank" title="Raider.IO">
+                <amp-img alt="Raider.IO" width="50" height="50" layout="fixed" src="/assets/stream/raiderio.png"></amp-img>
+            </a>
+            <a href="https://www.warcraftlogs.com/character/eu/галакронд/{{ char.name }}" class="button button-wow" target="_blank" title="Warcraft Logs">
+                <amp-img alt="Warcraft Logs" width="50" height="50" layout="fixed" src="/assets/stream/warcraftlogs.png"></amp-img>
+            </a>
+            <a href="https://discord.gg/{{ stream.discord }}" class="button button-wow" target="_blank" title="Discord">
+                <amp-img alt="Discord" width="50" height="50" layout="fixed" src="/assets/stream/discord.png"></amp-img>
+            </a>
+            <a href="{{ char.guild.url }}" class="button button-wow" target="_blank" title="{{ char.guild.name }}">
+                <amp-img alt="{{ char.guild.name }}" width="50" height="50" layout="fixed" src="/assets/stream/guild.png"></amp-img>
+            </a>
+            <a href="https://twitch.tv/{{ stream.twitch }}" class="button button-wow" target="_blank" title="Twitch">
+                <amp-img alt="Twitch" width="50" height="50" layout="fixed" src="/assets/stream/twitch.png"></amp-img>
+            </a>
+            <a href="https://youtube.com/channel/{{ stream.youtube }}" class="button button-wow" target="_blank" title="YouTube">
+                <amp-img alt="YouTube" width="50" height="50" layout="fixed" src="/assets/stream/youtube.png"></amp-img>
+            </a>
+            <a href="https://www.donationalerts.com/r/{{ stream.donationalerts }}" class="button button-wow" target="_blank" title="Поддержка">
+                <amp-img alt="Поддержка" width="50" height="50" layout="fixed" src="/assets/stream/donate.png"></amp-img>
+            </a>
+        </div>
+    </div>
+</div>
+

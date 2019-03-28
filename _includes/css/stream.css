@@ -11,19 +11,12 @@ html, body {
 .text-gold {
     color: #f8b700
 }
-
 .text-orange {
     color: #ff7c0a
 }
-
 .text-50 {
     font-size: 50%
 }
-
-.logo-big {
-    display:none;
-}
-
 .button-wow {
     border: 1px solid #c77e19;
     background: rgba(96, 108, 118, .4);
@@ -31,12 +24,37 @@ html, body {
     -webkit-transition: background .2s, color .2s;
     transition: background .2s, color .2s;
 }
-.button-wow:hover {
+.border-wow {
+    border: 1px solid #c77e19;
+    color: #f7b10a;
+}
+.button-wow:hover,
+.border-wow:hover {
     border: 1px solid #ff7c0a;
 }
-
-@media (min-width: 80.0rem) {
-    .logo-big {
-        display: block;
-    }
+.streamer-profile {
+    position: relative;
+    text-align: center;
+    color: white;
 }
+.streamer-description {
+  position: absolute;
+  width: 80%;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.class-druid {color:#FF7D0A}
+.class-dk {color:#C41F3B}
+.class-dh {color:#A330C9}
+.class-hunter {color:#ABD473}
+.class-mage {color:#40C7EB}
+.class-monk {color:#00FF96}
+.class-paladin {color:#F58CBA}
+.class-priest {color:#FFFFFF}
+.class-rogue {color:#FFF569}
+.class-shaman {color:#0070DE}
+.class-warlock {color:#8787ED}
+.class-warrior {color:#C79C6E}
