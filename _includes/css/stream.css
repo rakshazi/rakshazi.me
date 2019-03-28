@@ -2,6 +2,9 @@ html, body {
     background: #191819;
     height: 100%;
 }
+.container {
+    max-width: inherit;
+}
 .container,.row {
     height: 100%;
 }
@@ -23,10 +26,13 @@ html, body {
 
 .button-wow {
     border: 1px solid #c77e19;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(96, 108, 118, .4);
     color: #f7b10a;
     -webkit-transition: background .2s, color .2s;
     transition: background .2s, color .2s;
+}
+.button-wow:hover {
+    border: 1px solid #ff7c0a;
 }
 
 @media (min-width: 80.0rem) {
