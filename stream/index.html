@@ -9,19 +9,23 @@ layout: layout
     </div>
     <div class="row row-center">
         {% for stream in site.stream %}
-        <a href="/stream/{{ stream.twitch }}" class="column text-center border-wow streamer-profile">
-                {% assign char = stream.character %}
-                <h1>
-                    <span class="text-50 text-gray">{{ char.prefix }}</span>
-                    <span class="class-{{ char.class }}">{{ char.name }}</span>
-                    <span class="text-50 text-gray">{{ char.suffix }}</span>
-                </h1>
-                <span class="streamer-description button-wow">
-                    <p class="text-orange">{{ stream.description }}</p>
-                    <p class="text-white">{{ char.description }}</p>
-                </span>
-                <amp-img src="{{ char.image }}" width="356" height="571"></amp-img>
-            </a>
+        <a href="/stream/{{ stream.twitch }}" class="column text-center streamer-profile border">
+            {% assign char = stream.character %}
+            <div class="corner-top-left"></div>
+            <div class="corner-top-right"></div>
+            <div class="corner-bottom-left"></div>
+            <div class="corner-bottom-right"></div>
+            <h1>
+                <span class="text-50 text-gray">{{ char.prefix }}</span>
+                <span class="class-{{ char.class }}">{{ char.name }}</span>
+                <span class="text-50 text-gray">{{ char.suffix }}</span>
+            </h1>
+            <span class="streamer-description button-wow">
+                <p class="text-orange">{{ stream.description }}</p>
+                <p class="text-white">{{ char.description }}</p>
+            </span>
+            <amp-img src="{{ char.image }}" width="356" height="571"></amp-img>
+        </a>
         {% endfor %}
     </div>
 </div>

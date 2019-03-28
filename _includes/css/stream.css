@@ -36,14 +36,63 @@ html, body {
     position: relative;
     text-align: center;
     color: white;
+    margin: 20px;
 }
 .streamer-description {
-  position: absolute;
-  width: 80%;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
+    position: absolute;
+    width: 80%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.border {
+    position: relative;
+    border: 1px solid;
+    border-image: url("/assets/stream/border.png") 30 stretch;
+    border-image-width: 9px;
+    border-image-repeat: round;
+}
+
+.corner-top-left {
+    width: 66px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-image: url("/assets/stream/corner.png");
+    transform: rotate(-90deg);
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+.corner-top-right {
+    width: 66px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-image: url("/assets/stream/corner.png");
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.corner-bottom-left {
+    width: 66px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-image: url("/assets/stream/corner.png");
+    transform: rotate(-180deg);
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+}
+.corner-bottom-right {
+    width: 66px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-image: url("/assets/stream/corner.png");
+    transform: rotate(90deg);
+    bottom: -5px;
+    right: -5px;
+    position: absolute;
 }
 
 .class-druid {color:#FF7D0A}
