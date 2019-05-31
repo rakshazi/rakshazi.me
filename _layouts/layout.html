@@ -29,12 +29,22 @@ layout: compress
         <meta name="og:title" content="{{ meta.title }}">
         <meta name="og:type" content="{{ meta.type }}">
         <meta name="og:url" content="{{ site.url }}{{ meta.canonical }}">
+        <!-- icons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/profile/icons/apple-touch-icon.png?v=m2LN6WvMbM">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/profile/icons/favicon-32x32.png?v=m2LN6WvMbM">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/profile/icons/favicon-16x16.png?v=m2LN6WvMbM">
+        <link rel="manifest" href="/assets/profile/icons/site.webmanifest?v=m2LN6WvMbM">
+        <link rel="mask-icon" href="/assets/profile/icons/safari-pinned-tab.svg?v=m2LN6WvMbM" color="#061621">
+        <link rel="shortcut icon" href="/favicon.ico?v=m2LN6WvMbM">
+        <meta name="msapplication-TileColor" content="#061621">
+        <meta name="theme-color" content="#061621">
+
+
         <!-- verification -->
         <meta name="yandex-verification" content="{{ site.verification.yandex }}" />
         <meta name="google-site-verification" content="{{ site.verification.google }}" />
         <!-- links -->
         <link rel="canonical" href="{{ site.url }}{{ meta.canonical }}">
-        <link rel="icon" type="image/jpeg" href="{{ site.url }}/assets/{{ meta.icon }}">
         <!-- END SEO -->
         <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -43,7 +53,7 @@ layout: compress
         <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
         <style amp-boilerplate>{% include css/vendor/boilerplate.css %}</style>
         <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-            <style amp-custom>{% include css/vendor/milligram.css %}{% include css/global.css %}{% include css/{{ meta.style }} %}</style>
+            <style amp-custom>{% include css/vendor/milligram.css %}{% include css/{{ meta.style }} %}</style>
     </head>
     <body>{{ content }}</body>
 </html>
