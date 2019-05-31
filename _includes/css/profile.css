@@ -1,5 +1,5 @@
 body {
-    background: url('/assets/profile/logo.png') no-repeat center #061621;
+    background: url('/assets/profile/logo.png') no-repeat center #002642;
     color: #fff;
     margin: 0;
 }
@@ -13,7 +13,7 @@ h1 {
 
 .button {
     background: #fff;
-    color: #061621;
+    color: #002642;
     border-color: #acacac;
     padding: 1rem;
     line-height: inherit;
