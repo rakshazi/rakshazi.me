@@ -6,96 +6,11 @@ meta:
   "index.html":
     canonical: /
     description: Backend Developer, DevOps
-    icon: profile/favicon-96x96.jpg
-    image: profile/logo.jpg
+    image: profile/logo.png
     style: profile.css
     title: Nikita Chernyi
     twitter: rakshazi
     type: website
-  "stream/index.html":
-    type: website
-    title: Стримеры
-    twitter: forestguildclub
-    image: stream/guild.png
-    icon: stream/guild.png
-    style: stream.css
-    canonical: /stream
-    description: Ясный Лес on air.
-  "stream/etke.html":
-    type: website
-    title: Этке из джунглей
-    twitter: rakshazi
-    image: stream/logo.png
-    icon: stream/logo.png
-    style: stream.css
-    canonical: /stream
-    description: Ресто друид против всех
-  "stream/hitrayapopa.html":
-    type: website
-    title: лесная фея Хитраяпопа
-    image: stream/guild.png
-    icon: stream/guild.png
-    style: stream.css
-    canonical: /stream/hitrayapopa
-    description: Воинственная варлок(-ша). Даешь власть лисичкам!
-  "stream/akulenokwow.html":
-    type: website
-    title: WTS'ЕРША Минаскира
-    image: stream/guild.png
-    icon: stream/guild.png
-    style: stream.css
-    canonical: /stream/akulenokwow
-    description: БВОНСАМДИ, ГДЕ МОЯ СИЛА?
-
-
-stream:
-  - twitch: etke
-    discord: v9mNxAS
-    youtube: UCN8B-kGep9ubA4SXR_NiYzQ
-    donationalerts: etke
-    placeholder: /assets/stream/placeholder.png
-    description: Ресто друид против всех
-    character:
-      name: Этке
-      suffix: из джунглей
-      class: druid
-      image: /assets/stream/char.png
-      description: Рейдовый хил без охладителя <s>ану</s> корней, ГМ гильдии Ясный Лес.
-      guild:
-        name: Ясный Лес
-        url: https://forestguild.club
-
-  - twitch: hitrayapopa
-    discord: v9mNxAS
-    youtube: UC7uC1FY2Tj1JlKNfb7MCEkQ
-    donationalerts: hitrayapopa
-    placeholder: /assets/stream/placeholder.png
-    description: Воинственная варлок(?ша).<br />Даешь власть лисичкам!
-    character:
-      name: Хитраяпопа
-      suffix: лесная фея
-      class: warlock
-      image: /assets/stream/char.hitraya.png
-      description: Рыжые морды - топ!
-      guild:
-        name: Ясный Лес
-        url: https://forestguild.club
-
-  - twitch: akulenokwow
-    discord: v9mNxAS
-    youtube: UC10NcxfOO-w7-_FtNkqV7HQ
-    donationalerts: VizardT3
-    placeholder: /assets/stream/placeholder.png
-    description: БВОНСАМДИ ГДЕ МОЯ СИЛА?
-    character:
-      prefix: WTS'ЕРША
-      name: Минаскира
-      class: dh
-      image: /assets/stream/char.minaskira.png
-      description: Всегда чувствую запах охотника на демонов.
-      guild:
-        name: Ясный Лес
-        url: https://forestguild.club
 
 compress_html:
   clippings: all
