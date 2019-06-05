@@ -15,9 +15,14 @@ h1 {
     background: #fff;
     color: #061621;
     border-color: #acacac;
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     line-height: inherit;
     height: inherit;
+    max-height: 7rem;
+    width: 7rem;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .button:hover, .button:focus {
@@ -42,3 +47,5 @@ h1 {
         display: none;
     }
 }
+
+{% include css/vendor/fontello.css %}

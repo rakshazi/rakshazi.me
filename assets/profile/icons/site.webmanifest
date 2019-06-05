@@ -3,12 +3,12 @@
     "short_name": "Nikita Chernyi",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png?v=m2LN6WvMbM",
+            "src": "/assets/profile/icons/android-chrome-192x192.png?v=m2LN6WvMbM",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-512x512.png?v=m2LN6WvMbM",
+            "src": "/assets/profile/icons/android-chrome-512x512.png?v=m2LN6WvMbM",
             "sizes": "512x512",
             "type": "image/png"
         }
