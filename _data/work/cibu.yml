@@ -1,0 +1,7 @@
+---
+name: CIBU - CI BUild helper
+language: bash
+url: https://github.com/titanium-codes/cibu
+description: >
+  Collection of bash scripts with usefull things for CI implemented into awscli-like style.
+  Used on each CI/CD job in Titanium's projects.

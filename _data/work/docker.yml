@@ -1,0 +1,7 @@
+---
+name: Docker base image
+language: docker
+url: https://github.com/titanium-codes/docker
+description: >
+  Base image for all CI/CD pipelines in Titanium company, bundled with lots of tools.
+  <img src="https://img.shields.io/docker/pulls/tico/docker.svg" alt="docker pulls counter">

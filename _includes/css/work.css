@@ -1,0 +1,35 @@
+body {
+    background: #061621;
+    color: #fff;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+.text-gray {
+    color:#a0a0a0;
+}
+
+
+p {
+    margin-bottom: 0;
+    color: #a0a0a0;
+}
+
+ol li, ul li {
+    color: #a0a0a0;
+}
+
+a, a:hover, a:focus, a:visited {
+    color: #fff;
+}
+
+div.project {
+    max-width: 40rem;
+    display: inline-block;
+    vertical-align: top;
+    border-left: 4px solid #a0a0a0;
+    padding: 8px 12px;
+    margin-bottom: 1rem;
+}

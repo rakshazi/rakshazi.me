@@ -1,0 +1,9 @@
+---
+name: WTF framework
+language: php
+url: https://github.com/frameworkwtf
+description: >
+  PHP framework, built on top of Slim framework for fast prototyping and bootstrapping new projects.
+  Main idea is to rapid develop, build and deploy fast and secure applications.<br>
+  Has implemented modules for ORM (SQL databases), Auth (DB, LDAP, session, cookie, jwt), REST, HTML (ssr).
+  Bundled with docker

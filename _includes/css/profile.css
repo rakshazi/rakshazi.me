@@ -10,6 +10,9 @@ h1 {
 .text-gray {
     color:#a0a0a0;
 }
+.text-white {
+    color: #fff;
+}
 
 .button {
     background: #fff;
@@ -39,7 +42,12 @@ h1 {
 
 .img-space {
     width: 200px;
-    height: 250px;
+    height: 270px;
+}
+
+.biglink {
+    color: #fff;
+    font-size: 1.2em;
 }
 
 @media (max-width: 40.0rem) {

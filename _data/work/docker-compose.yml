@@ -1,0 +1,8 @@
+---
+name: docker-compose
+language: bash
+url: https://github.com/titanium-codes/docker-compose
+description: >
+  Bash script, which allow to use docker/compose as docker image.
+  That script requires only standard nix tools and provides auto-updates, without additional dependencies (official way - python package with bunch of specific deps).
+  Useful for CI and developers' workstations

@@ -1,0 +1,7 @@
+---
+name: swagger-php dockerized
+language: docker
+url: https://github.com/titanium-codes/docker-swagger-php
+description: >
+  Dockerized <a href="http://zircote.com/swagger-php/">swagger-php</a> (OpenAPI spec generation from annotations)
+  <img src="https://img.shields.io/docker/pulls/tico/swagger-php.svg" alt="docker pulls counter">

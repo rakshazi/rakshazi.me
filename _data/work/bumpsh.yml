@@ -1,0 +1,6 @@
+---
+name: bump.sh
+language: bash
+url: https://github.com/titanium-codes/bump.sh
+description: >
+  Automatic CHANGELOG.md generator with tags/releases and MRs/PRs creation.

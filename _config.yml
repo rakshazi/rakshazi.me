@@ -9,7 +9,13 @@ meta:
     image: profile/logo.png
     style: profile.css
     title: Nikita Chernyi
-    twitter: rakshazi
+    type: website
+  "work.html":
+    canonical: /work
+    description: Open Source projects and tools.
+    image: profile/logo.png
+    style: work.css
+    title: Work
     type: website
 
 compress_html:

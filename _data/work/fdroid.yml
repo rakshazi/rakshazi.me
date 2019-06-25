@@ -1,0 +1,7 @@
+---
+name: F-Droid repo
+language: python
+url: https://gitlab.com/rakshazi/fdroid
+description: >
+  Custom F-Droid repo built on top of Gitlab CI, Gitlab Pages and CloudFlare. Automatically downloads releases of open source apps from git repos,
+  signs and publishes it in f-droid repository format on daily schedule.

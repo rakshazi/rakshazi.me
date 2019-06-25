@@ -1,0 +1,10 @@
+---
+name: Forest Guild
+language: ruby
+url: https://github.com/forestguild
+description: >
+  Static WoW guild website with integrations to WoW API (affixes), Warcraft Logs (attendance tracker), Raider.io and WOWprogress (guild progress),
+  Wowhead (game data and stats),<br>
+  Yandex.Turbo (optimized webpages on Yandex side), Google AMP (optimized webpages on Google side), Twitch (online streamers counter) and
+  image manipulations (use WebP if client supports it, otherwise - use original jpeg/png/etc).<br>
+  Built on top of Jekyll (website "engine") and Gitlab CI (to run ruby modules for data collecting and calculation).

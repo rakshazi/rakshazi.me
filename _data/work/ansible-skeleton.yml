@@ -1,0 +1,6 @@
+---
+name: Ansible Skeleton
+language: yml
+url: https://github.com/rakshazi/ansible-skeleton
+description: >
+  Boilerplate for new project with usable file structure even on very huge projects.

@@ -1,0 +1,7 @@
+---
+name: Phinx dockerized
+language: docker
+url: https://github.com/titanium-codes/docker-phinx
+description: >
+  Dockerized <a href="https://phinx.org">Phinx</a> (db migration tool)
+  <img src="https://img.shields.io/docker/pulls/tico/phinx.svg" alt="docker pulls counter">
