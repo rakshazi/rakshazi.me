@@ -3,6 +3,6 @@ name: Healthcheck
 language: go
 url: https://gitlab.com/rakshazi/healthcheck
 description: >
-  This program will constantly check for one or more http(-s) or websocket endpoints and notify you whenever something goes down and also when it goes up again.
+  This program will constantly check for one or more http(-s), websocket and redis endpoints and notify you whenever something goes down and also when it goes up again.
   It will additionally expose an http (json) endpoint with the current statuses of every check configured.
   <p>Notifications: Slack, Twilio SMS</p>
