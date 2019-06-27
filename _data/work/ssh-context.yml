@@ -3,17 +3,5 @@ name: ssh-context
 language: bash
 url: https://github.com/rakshazi/ssh-context
 description: >
-  Bash wrapper around ssh which provides you ability to use contexts (as in kubectl) for SSH.
-  Better to describe it with example:
-  <ol>
-    <li>You are developer involved in multiple projects. Each project has own dev/staging/production servers, git services, ssh keys, etc.</li>
-    <li>You don't want to manually enter ssh keys' locations each time (or mix your ssh config file).</li>
-    <li>You want to share ssh config of one of the projects.</li>
-    <li>It's not usable to do that with standard ssh toolchain</li>
-  </ol>
-  And here is ssh-context.
-  <ol>
-    <li>Project = context</li>
-    <li>Context = separate ssh config, keys, etc.</li>
-    <li>Use full power of isolated ssh config</li>
-  </ol>
+  Bash wrapper around ssh which provides you ability to use contexts (as in kubectl) for SSH.<br />
+  Project = context. Context = separate ssh config, keys, etc. Use full power of isolated ssh config

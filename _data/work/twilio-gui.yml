@@ -4,6 +4,4 @@ language: python
 url: https://github.com/rakshazi/twilio-sms-gui
 description: >
   Simple gui to send SMS via Twilio, using predefined contact list.
-  Usage case (example): You are DnD Dungeon Master and you want to notify your party about changes in scheduled event.<br>
-  Usage case (real, the reason why that tool has been developed): You are Guild Master and Raid Leader. Your raiders are <b>very</b> forgetful,
-  so you need to send them SMS before raid to notify about event.
+  Usage case: You are DnD Dungeon Master and you want to notify your party about changes in scheduled event.
