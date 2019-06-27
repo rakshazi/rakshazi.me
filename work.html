@@ -8,7 +8,10 @@ layout: layout
     {% assign project = item[1] %}
     <div align="left" class="project">
         <p><a href="{{ project.url }}" target="_blank" title="{{ project.name }}">{{ project.name }}</a> <i class="text-gray">{{ project.language }}</i></p>
-        <p class="text-gray">{{ project.description }} <noindex><a href="https://liberapay.com/rakshazi/donate" target="_blank" rel="nofollow">support development</a></noindex></p>
+        <p class="text-gray">
+        {{ project.description }}<br />
+        <noindex><a href="https://liberapay.com/rakshazi/donate" target="_blank" rel="nofollow">support development</a></noindex>
+        </p>
     </div>
     {% endfor %}
 </div>
