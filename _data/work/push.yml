@@ -1,0 +1,7 @@
+---
+name: Push
+language: go
+url: https://gitlab.com/rakshazi/push
+description: >
+  This program will receive messages via REST API and/or Redis queue and send push notifications to Google FCM and/or Apple APNS (VoIP supported).
+  Distribution: binary, docker image, source code
