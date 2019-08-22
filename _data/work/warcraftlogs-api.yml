@@ -1,0 +1,5 @@
+---
+name: Warcraftlogs API
+language: go
+url: https://gitlab.com/rakshazi/warcraftlogs-api
+description: Golang API client for WarcraftLogs.com API

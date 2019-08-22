@@ -1,0 +1,5 @@
+---
+name: WoWProgress
+language: go
+url: https://gitlab.com/rakshazi/wowprogress
+description: Tool to automatically update guild progress on Raider.IO and Wowprogress.com
