@@ -1,0 +1,5 @@
+---
+name: Warcraft Raid Boss Top
+language: go
+url: https://gitlab.com/rakshazi/wrbt/
+description: Grabs data from multiple sources and calculate the hardest/easiest boss based on Warcraft Logs parses (kills/wipes counters)
