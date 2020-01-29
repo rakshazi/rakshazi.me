@@ -1,0 +1,5 @@
+---
+name: Council of Tirisfal
+language: html
+url: https://tirisfal.wtf
+description: Static WoW guild website with integrations to Raider.IO API. Built with Jekyll, Statically CDN and microfromats/OGP markup.
