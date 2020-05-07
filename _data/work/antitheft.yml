@@ -1,0 +1,5 @@
+---
+name: Antitheft
+language: go
+url: https://gitlab.com/rakshazi/antitheft
+description: CLI tool helps you to find stolen laptop
