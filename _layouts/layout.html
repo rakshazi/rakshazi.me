@@ -50,5 +50,9 @@ layout: compress
     <body>
         {{ content }}
         <style>{% include css/vendor/milligram.css %}{% include css/{{ meta.style }} %}</style>
+        {% if jekyll.environment != "development" %}
+        <script src="https://getinsights.io/static/js/insights.js"></script>
+        <script>insights.init('StS5nAySiumzBSTG');insights.trackPages();</script>
+        {% endif %}
     </body>
 </html>
